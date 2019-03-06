@@ -1,0 +1,22 @@
+import { Component } from '@angular/core';
+import { MatIconRegistry } from '@angular/material';
+import { DomSanitizer } from '@angular/platform-browser';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'Tiago Silva Portfolio';
+
+  constructor(
+    private iconRegistry: MatIconRegistry,
+    sanitise: DomSanitizer
+  ) {
+    this.iconRegistry.addSvgIcon(
+      'TSicon',
+      sanitise.bypassSecurityTrustResourceUrl('assets/ts.svg')
+    );
+  }
+}

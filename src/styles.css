@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import "assets/themes/ts-theme.css";
+
+@font-face {
+    font-family: OpenSans;
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
+  
+body {
+    width: 100%;
+    margin: 10px 0 10px;
+}
+
+.cover-page {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 225%;
+    color: #d14809;
+}
+
+p {
+    font-size: 100%;
+    color: #d14809;
+}
+
+td {
+    color: #d14809;
+    padding: 0 20px 0;
+    text-align: left;
+}
+
+th {
+    font-size: 130%;
+    color: #d14809;
+    line-height: 50px;
+    padding: 20px 20px 20px;
+    text-align: left;
+}
