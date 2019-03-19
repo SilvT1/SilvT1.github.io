@@ -1,0 +1,26 @@
+<LIST>
+<Education id="4">
+<Place_Of_Education>University of Gloucestershire</Place_Of_Education>
+<Course>Information Technology (Sandwich course – 1 Year placement)</Course>
+<DATE>2014 - 2018</DATE>
+<Result> 2:1 </Result>
+</Education>
+<Education id="3">
+<Place_Of_Education>ScrumAlliance.org through HESA</Place_Of_Education>
+<Course>Certified ScrumMaster (Certificate valid 09/05/2017 – 09/05/2019)</Course>
+<DATE>2017</DATE>
+<Result>  </Result>
+</Education>
+<Education id="2">
+<Place_Of_Education>St.Wilfrids Catholic School Sixth Form</Place_Of_Education>
+<Course>A levels: Applied IT, Applied Business, Travel and Tourism</Course>
+<DATE>2012 - 2014</DATE>
+<Result> Applied IT (C), Applied Business (C), Travel and Tourism (D) </Result>
+</Education>
+<Education id="1">
+<Place_Of_Education>St.Wilfrids Catholic School (Secondary School)</Place_Of_Education>
+<Course>8 GCSE including Math, Science and English</Course>
+<DATE> </DATE>
+<Result> A-C </Result>
+</Education>
+</LIST>
